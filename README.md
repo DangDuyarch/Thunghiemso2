@@ -18,7 +18,7 @@ A.	Độ phức tạp thuật toán: ta xét trường hợp M = 1
 - Độ phức tạp thời gian: O (n-1)     
 B.	Tính toán thời gian chạy với N > 100.000     
 - Sử dụng thư viện <chrono> và các hàm để lấy một mốc thời gian ngay trước khi gọi hàm xử lý và một mốc ngay sau khi chạy xong. Hiệu của hai mốc này chính là thời gian thực thi.   
-- Với N > 100000, thời gian thực hiện khoảng ~ 0.0023s – 0.076s
+- Với N > 100000, thời gian thực hiện khoảng ~ 0.0023s – 0.076s    
 C. Test case:    
 -	N = 1, M = 0,    
 -	N = 5, M = 0,  
