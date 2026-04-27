@@ -12,14 +12,14 @@ II. Bài tập nâng cao
 •	B2: Khai báo 2 con trỏ liên tiếp để thực hiện dò tìm, xóa   
 •	B3: Lặp ds đến khi chỉ còn 1 người. Trong đó, 2 con trỏ q và p được dịch chuyển lên trước liên tục, tìm vị trí thứ M, thực hiện xóa nút p (Cho q->link = p->link), sau đó lặp lại với p mới.  
 2. Phân tích độ phức tạp và Thời gian chạy   
-•	Độ phức tạp thuật toán: ta xét trường hợp M = 1  
+A.	Độ phức tạp thuật toán: ta xét trường hợp M = 1  
 - Mỗi lượt loại bỏ, cần thực hiện M bước nhảy con trỏ, tổng cộng có N-1 người bị loại.  
 - Tổng số thao tác: M (N - 1) = (N-1)  
 - Độ phức tạp thời gian: O (n-1)     
-•	Tính toán thời gian chạy với N > 100.000     
+B.	Tính toán thời gian chạy với N > 100.000     
 - Sử dụng thư viện <chrono> và các hàm để lấy một mốc thời gian ngay trước khi gọi hàm xử lý và một mốc ngay sau khi chạy xong. Hiệu của hai mốc này chính là thời gian thực thi.   
-- Với N > 100000, thời gian thực hiện khoảng ~ 0.0023s – 0.076s    
-•	Test case:    
+- Với N > 100000, thời gian thực hiện khoảng ~ 0.0023s – 0.076s
+C. Test case:    
 -	N = 1, M = 0,    
 -	N = 5, M = 0,  
 -	N = 5, M = 1,  
